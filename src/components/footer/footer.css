@@ -1,0 +1,14 @@
+footer {
+    padding: .3rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 6rem;
+}
+
+.footer__copyright {
+    color: var(--color-primary);
+}
+
+.footer__copyright:hover {
+    color: var(--color-white);
+}
