@@ -3,6 +3,7 @@ import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/me.png'
 import HeaderSocials from './HeaderSocials'
+import Autotext from './Autotext'
 
 const Header = () => {
   return (
@@ -10,7 +11,7 @@ const Header = () => {
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>Numan Ahmed</h1>
-        <h5 className='text-light'>Fullstack Developer</h5>
+        <Autotext />
         <CTA />
         <HeaderSocials />
         <div className='me'>
