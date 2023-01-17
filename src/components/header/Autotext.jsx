@@ -13,7 +13,7 @@ const Autotext = () => {
         .pauseFor(300)
         .deleteChars(3)
         .typeString('<strong><span style="color: #FFEA20;">web</span> Development!</strong>')
-        .pauseFor(6000)
+        .pauseFor(4000)
         .deleteAll()
         .pauseFor(1000)
         .start();

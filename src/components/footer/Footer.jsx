@@ -1,6 +1,5 @@
 import React from 'react'
 import './footer.css'
-import {AiFillTwitterSquare, AiFillLinkedin, AiFillGithub} from "react-icons/ai"
 
 const Footer = () => {
   return (
