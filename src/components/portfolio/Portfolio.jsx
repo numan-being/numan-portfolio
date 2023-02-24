@@ -1,8 +1,10 @@
 import React from 'react'
 import './portfolio.css'
-import IMG2 from '../../assets/portfolio.jpg'
-import IMG1 from '../../components/portfolio/Youtube.webp'
 
+
+import IMG1 from '../../components/portfolio/Youtube.webp'
+import IMG2 from '../../components/portfolio/vaolrant.jpg'
+import IMG3 from '../../components/portfolio/SSlodge.png'
 
 const data = [
   {
@@ -16,18 +18,18 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: '2',
+    title: 'Valorant',
     github: 'https://github.com',
     demo: 'https:google.com',
-    description: ''
+    description: 'A landing page showcasing the characters and maps in Valorant, a competitive tactical FPS game. The page should feature a responsive grid layout and support both light and dark modes.'
   },
   {
     id: 3,
-    image: IMG2,
-    title: '3',
-    github: 'https://github.com',
-    demo: 'https:google.com',
-    description: ''
+    image: IMG3,
+    title: 'SS LODGE',
+    github: 'https://github.com/numan-being/lodge',
+    demo: 'https://lodge-blush.vercel.app/',
+    description: 'A visually appealing and user-friendly website for a lodge located in Chikmagalur, featuring stunning imagery, detailed information on accommodations and activities, and a responsive design.'
   },
 ]
 
